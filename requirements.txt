@@ -16,7 +16,7 @@ cachetools==5.5.2
 certifi==2026.1.4
 charset-normalizer==3.4.4
 chroma-hnswlib==0.7.6
-chromadb==0.5.5
+chromadb==1.5.0
 click==8.3.1
 coloredlogs==15.0.1
 dataclasses-json==0.6.7
@@ -50,6 +50,7 @@ jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 kubernetes==35.0.0
 langchain==0.2.11
+langchain-chroma==1.1.0
 langchain-community==0.2.10
 langchain-core==0.2.43
 langchain-ollama==0.1.1
@@ -84,10 +85,11 @@ overrides==7.7.0
 packaging==24.2
 pandas==2.3.3
 pillow==10.4.0
-posthog==7.9.1
+posthog==5.4.0
 propcache==0.4.1
 protobuf==5.29.6
 pyarrow==23.0.1
+pybase64==1.4.3
 pydantic==2.12.5
 pydantic_core==2.41.5
 pydeck==0.9.1
@@ -126,6 +128,7 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 tzdata==2025.3
 urllib3==2.6.3
+uuid_utils==0.14.0
 uvicorn==0.41.0
 uvloop==0.22.1
 watchdog==4.0.2
@@ -133,5 +136,7 @@ watchfiles==1.1.1
 websocket-client==1.9.0
 websockets==16.0
 wrapt==1.17.3
+xxhash==3.6.0
 yarl==1.22.0
 zipp==3.23.0
+zstandard==0.25.0
