@@ -3,3 +3,4 @@ __pycache__/
 .env
 Database/
 .DS_Store
+test_legal.py
