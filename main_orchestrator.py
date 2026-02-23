@@ -1,7 +1,7 @@
 import os
 from langchain_ollama import ChatOllama
 from langgraph.prebuilt import create_react_agent
-from langchain_core.messages import SystemMessage
+#from langchain_core.messages import SystemMessage
 from src.specialist_tools import (
     legal_specialist_tool,
     hr_specialist_tool,
@@ -11,7 +11,7 @@ from src.specialist_tools import (
 
 # 1. INITIALIZE THE LLM (THE BRAIN)
 # Temperature=0 makes the AI factual and consistent, which is vital for Corporate RAG.
-llm = ChatOllama(model="llama3", temperature=0)
+llm = ChatOllama(model="llama3.1", temperature=0)
 
 # 2. DEFINE THE TOOLBOX
 # These are the specialists the Manager can call.
@@ -37,7 +37,7 @@ system_message = (
 
 # 4. CREATE THE AGENT (THE ORCHESTRATOR)
 # LangGraph handles the 'Reasoning' loop (deciding which tool to use).
-agent_executor = create_react_agent(llm, tools, state_modifier=system_message)
+agent_executor = create_react_agent(llm, tools, prompt=system_message)
 
 def run_hub(user_query: str):
     """
