@@ -23,3 +23,18 @@ def legal_specialist_tool(query: str) -> str:
     
     # Combine the results into a single string for the LLM to read
     return "\n\n".join([doc.page_content for doc in results])
+@tool
+def hr_specialist_tool(query: str) -> str:
+    """Consult this for HR, benefits, and onboarding. (MOCK)"""
+    return "HR Agent: I'm currently under development, but I will eventually handle HR queries!"
+
+@tool
+def it_specialist_tool(query: str) -> str:
+    """Consult this for IT support and troubleshooting. (MOCK)"""
+    return "IT Agent: I'm currently under development, but I will eventually handle IT queries!"
+
+@tool
+def customer_success_tool(query: str) -> str:
+    """Consult this for customer retention and support logs. (MOCK)"""
+    return "CS Agent: I'm currently under development, but I will eventually handle CS queries!"
+
