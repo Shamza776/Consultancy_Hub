@@ -52,3 +52,4 @@ def run_legal_ingestion():
 
 if __name__ == "__main__":
     run_legal_ingestion()
+    
