@@ -1,0 +1,73 @@
+CUSTOMER SUCCESS OPERATIONS PLAYBOOK
+Company Confidential — Internal Use Only
+
+This section defines customer support standards, escalation procedures, and
+retention protocols for the Customer Success Department.
+
+11.0 SERVICE LEVEL AGREEMENTS (SLAs)
+
+Clause 11.1: Response Time Standards
+1. Enterprise-tier customers: initial response within one (1) hour, 24/7.
+2. Professional-tier customers: initial response within four (4) business
+   hours.
+3. Standard-tier customers: initial response within one (1) business day.
+
+Clause 11.2: Resolution Targets
+1. Critical issues (service outage, data loss risk): resolution target within
+   eight (8) hours.
+2. Major issues (significant feature failure): resolution target within three
+   (3) business days.
+3. Minor issues (cosmetic bugs, feature requests): resolution target within
+   ten (10) business days or added to product roadmap review.
+
+12.0 ESCALATION PROCEDURES
+
+Clause 12.1: Tier 1 to Tier 2 Escalation
+1. Front-line Customer Success Representatives must escalate to Tier 2
+   Technical Support if an issue is unresolved after thirty (30) minutes of
+   troubleshooting or requires engineering-level investigation.
+
+Clause 12.2: Executive Escalation
+1. Any complaint involving contract cancellation threats, legal action, or
+   public/media exposure risk must be immediately escalated to the Customer
+   Success Director and copied to the Legal Department.
+2. Executive escalations require an acknowledgment response to the customer
+   within two (2) hours.
+
+13.0 REFUND AND CREDIT POLICY
+
+Clause 13.1: Service Credits
+1. Customers experiencing SLA breaches are entitled to service credits per the
+   signed Master Services Agreement, typically 5% of monthly fees per hour of
+   qualifying downtime, capped at 100% of the monthly invoice.
+
+Clause 13.2: Refund Approval Thresholds
+1. Refunds up to $500 may be approved directly by a Customer Success Manager.
+2. Refunds between $500 and $5,000 require Director approval.
+3. Refunds exceeding $5,000 require both Director and Finance approval.
+
+14.0 CHURN PREVENTION PROTOCOL
+
+Clause 14.1: At-Risk Account Identification
+1. Accounts flagged with declining product usage (>40% drop month-over-month),
+   unresolved critical tickets, or non-renewal signals must be logged in the
+   Customer Health Dashboard as "At-Risk."
+
+Clause 14.2: Retention Playbook
+1. At-Risk accounts must be assigned a Retention Specialist within two (2)
+   business days.
+2. A structured save plan (usage review call, success plan revision, or
+   pricing review) must be proposed to the customer within one (1) week of
+   flagging.
+
+15.0 CUSTOMER DATA HANDLING
+
+Clause 15.1: Confidentiality
+1. Customer Success personnel must never share one customer's account details,
+   pricing, or usage data with another customer under any circumstances.
+
+Document Control
+o Prepared by: Customer Success Department
+o Last Reviewed: 02/10/2026
+o Next Review: 02/10/2027
+o Approved by: VP of Customer Success

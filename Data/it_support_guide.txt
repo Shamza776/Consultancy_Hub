@@ -1,0 +1,77 @@
+INFORMATION TECHNOLOGY SUPPORT & SECURITY HANDBOOK
+Company Confidential — Internal Use Only
+
+This section outlines IT support procedures, acceptable use standards, and
+security protocols applicable to all Company personnel and systems.
+
+7.0 ACCEPTABLE USE POLICY
+
+Clause 7.1: Company Equipment
+1. Company-issued laptops and devices are for business use. Limited personal
+   use is permitted provided it does not interfere with work duties or violate
+   Company policy.
+2. Installation of unauthorized or unlicensed software on Company devices is
+   strictly prohibited.
+
+Clause 7.2: Password and Account Security
+1. All Company accounts require multi-factor authentication (MFA) where
+   supported.
+2. Passwords must be a minimum of twelve (12) characters and rotated every
+   ninety (90) days.
+3. Sharing account credentials with any other individual, including colleagues,
+   is a violation of this policy.
+
+Clause 7.3: Remote Access
+1. Remote access to internal systems must be conducted exclusively through the
+   Company-approved VPN client.
+2. Use of public Wi-Fi to access Company systems without VPN protection is
+   prohibited.
+
+8.0 IT SUPPORT PROCEDURES
+
+Clause 8.1: Submitting a Support Ticket
+1. All IT issues must be logged through the IT Service Desk Portal, categorized
+   by priority: Low, Medium, High, or Critical.
+2. Critical issues (full system outage, security breach) must additionally be
+   reported by phone to the IT Emergency Line.
+
+Clause 8.2: Response Time Service Levels
+1. Critical priority tickets: response within thirty (30) minutes, resolution
+   target within four (4) hours.
+2. High priority tickets: response within two (2) hours, resolution target
+   within one (1) business day.
+3. Medium/Low priority tickets: response within one (1) business day,
+   resolution target within three (3) business days.
+
+Clause 8.3: Hardware Requests
+1. New hardware requests (laptops, monitors, peripherals) must be submitted via
+   the Asset Request Form and approved by the requestor's Department Head.
+2. Standard hardware requests are fulfilled within five (5) business days;
+   expedited requests require Director-level approval.
+
+9.0 SECURITY INCIDENT REPORTING
+
+Clause 9.1: Suspected Breach Protocol
+1. Any Employee who suspects a security incident (phishing email, malware,
+   unauthorized access, lost/stolen device) must report it immediately to the
+   IT Security Team via the Incident Hotline or security@company.internal.
+2. Employees must not attempt to independently investigate or remediate a
+   suspected breach.
+
+Clause 9.2: Device Loss or Theft
+1. Loss or theft of a Company device must be reported within one (1) hour of
+   discovery to enable remote wipe procedures.
+2. A police report is required for insurance and asset recovery purposes.
+
+10.0 DATA HANDLING
+
+Clause 10.1: Confidential Data Storage
+1. Confidential or sensitive Company data must only be stored on approved
+   Company systems (SharePoint, Company cloud drive), never on personal
+   devices or unauthorized third-party cloud services.
+
+Document Control
+o Prepared by: Information Technology Department
+o Last Reviewed: 03/01/2026
+o Next Review: 03/01/2027
+o Approved by: Chief Technology Officer

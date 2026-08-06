@@ -4,6 +4,8 @@ from main_orchestrator import run_hub
 # 1. PAGE CONFIG
 st.set_page_config(page_title="Corporate AI Hub", page_icon="🏢")
 st.title("🏢 Corporate Consultancy Hub")
+st.caption("Ask your corporate questions and get expert answers from our specialized departments!")
+st.caption("(LEGAL, HR, IT, Customer)")
 st.markdown("---")
 
 # 2. INITIALIZE CHAT HISTORY
@@ -29,11 +31,11 @@ if prompt := st.chat_input("How can I help you today?"):
             response = run_hub(prompt)
             st.markdown(response)
     
-    # Add assistant response to history
+# Add assistant response to history
     st.session_state.messages.append({"role": "assistant", "content": response})
-    # with st.sidebar:
-    # st.header("Department Specialists")
-    # st.success("✅ Legal (Lead)")
-    # st.warning("⏳ HR (In Progress)")
-    # st.warning("⏳ IT (In Progress)")
-    # st.warning("⏳ Customer Success (In Progress)")
+    with st.sidebar:
+        st.header("Department Specialists")
+        st.success("✅ Legal")
+        st.success("✅ HR")
+        st.success("✅ IT")
+        st.success("✅ Customer Success")
