@@ -1,5 +1,6 @@
 import os
-from langchain_ollama import ChatOllama
+# from langchain_ollama import ChatOllama
+from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
 #from langchain_core.messages import SystemMessage
 from src.specialist_tools import (
@@ -10,8 +11,15 @@ from src.specialist_tools import (
 )
 
 # 1. INITIALIZE THE LLM (THE BRAIN)
-# Temperature=0 makes the AI factual and consistent, which is vital for Corporate RAG.
-llm = ChatOllama(model="llama3.1", temperature=0)
+# # Temperature=0 makes the AI factual and consistent, which is vital for Corporate RAG.
+# llm = ChatOllama(model="qwen2.5:3b", temperature=0)
+
+llm = ChatOpenAI(
+    model=os.environ.get("OPENROUTER_MODEL", "openrouter/free"),
+    temperature=0,
+    api_key=os.environ["OPENROUTER_API_KEY"],
+    base_url="https://openrouter.ai/api/v1",
+)
 
 # 2. DEFINE THE TOOLBOX
 # These are the specialists the Manager can call.
